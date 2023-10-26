@@ -98,6 +98,7 @@ Main
     width: 30px;
 }
 
+/* Offcanvas */
 
 /*
 ************
@@ -105,10 +106,25 @@ Responsive
 ************ 
 */
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
 
     /* Sidebar */
     .vdu-sidebar {
         width: 150px;
     }
+
+    /* Offcanvas */
+    .vdu-offcanvas {
+        width: 50vw !important;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* Offcanvas */
+    .vdu-offcanvas {
+        width: 30vw !important;
+    }
+
 }

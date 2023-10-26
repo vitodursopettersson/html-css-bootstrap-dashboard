@@ -1,0 +1,55 @@
+/*
+************
+Variables
+************ 
+*/
+
+:root {
+    --header-h: 70px;
+}
+
+/*
+------------
+Header
+------------ 
+*/
+
+header {
+    height: var(--header-h);
+    background-color: red;
+}
+
+/*
+------------
+Main
+------------ 
+*/
+
+.vdu-main-container {
+    height: calc(100vh - var(--header-h));
+    background-color: green;
+}
+
+/*
+------------
+Sidebar
+------------
+*/
+
+.vdu-sidebar {
+    width: 68px;
+}
+
+/*
+************
+Responsive
+************ 
+*/
+
+@media (min-width: 992px) {
+
+    /* Sidebar */
+    .vdu-sidebar {
+        width: 150px;
+    }
+}

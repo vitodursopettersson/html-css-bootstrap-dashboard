@@ -17,6 +17,7 @@ Variables
     --vdu-search: #E5E5E5;
     --vdu-sidebar: #10273D;
     --vdu-top-main: #1B72E8;
+    --vdu-tag-category: #165BBA;
 }
 
 /*
@@ -73,7 +74,6 @@ Main
 
 .vdu-top-main {
     background-color: var(--vdu-top-main);
-    height: 100px;
 }
 
 .vdu-main-left {
@@ -84,6 +84,11 @@ Main
 .vdu-main-right {
     background-color: yellow;
     height: 100vh;
+}
+
+.vdu-tag-category {
+    background-color: var(--vdu-tag-category);
+    font-weight: 500;
 }
 
 /*

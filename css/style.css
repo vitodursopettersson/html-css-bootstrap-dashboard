@@ -14,6 +14,8 @@ Variables
 
 :root {
     --vdu-warning: #ED8500;
+    --vdu-search: #E5E5E5;
+    --vdu-sidebar: #10273D;
 }
 
 /*
@@ -31,12 +33,12 @@ header {
 }
 
 .vdu-input-group>* {
-    background-color: #E5E5E5;
-    border: #E5E5E5;
+    background-color: var(--vdu-search);
+    border: var(--vdu-search);
 }
 
 .vdu-input:focus {
-    background-color: #E5E5E5;
+    background-color: var(--vdu-search);
 }
 
 .vdu-warning {
@@ -62,6 +64,11 @@ Sidebar
 
 .vdu-sidebar {
     width: 68px;
+    background-color: var(--vdu-sidebar);
+    background-image: url(/img/sidebar-bg.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /*

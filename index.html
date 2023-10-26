@@ -128,7 +128,8 @@
                     <!-- Nuovo Studente -->
                     <div class="col-12 col-md-4 col-lg-2 order-md-3 mt-4">
                         <span class="me-2">Nuovo Studente</span>
-                        <button type="button" class="btn btn-outline-light">
+                        <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvas" aria-controls="offcanvas">
                             <i class="fa-solid fa-plus"></i>
                         </button>
                     </div>
@@ -623,14 +624,106 @@
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
 
         </main>
 
+        <!-- Off Canvas -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas">
+
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasLabel">Inserisci un nuovo studente</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body">
+
+                <!-- Form -->
+                <form class="row g-3">
+
+                    <!-- Nome -->
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+
+                    <!-- Cognome -->
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Cognome</label>
+                        <input type="text" class="form-control" id="surname">
+                    </div>
+
+                    <!-- Email -->
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email</label>
+                        <div class="input-group">
+                            <div class="input-group-text">@</div>
+                            <input type="text" class="form-control" id="email">
+                        </div>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="col-md-6">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+
+                    <!-- Indirizzo -->
+                    <div class="col-md-12">
+                        <label for="address" class="form-label">Indirizzo</label>
+                        <input type="text" class="form-control" id="address">
+                    </div>
+
+                    <!-- Città -->
+                    <div class="col-md-6">
+                        <label for="city" class="form-label">Città</label>
+                        <input type="text" class="form-control" id="city">
+                    </div>
+
+                    <!-- Stato -->
+                    <div class="col-6 col-md-4">
+                        <label class="form-label" for="state">Stato</label>
+                        <select class="form-select" id="state">
+                            <option selected>Scegli...</option>
+                            <option value="1">Italia</option>
+                            <option value="2">Svezia</option>
+                            <option value="3">Spagna</option>
+                        </select>
+                    </div>
+
+                    <!-- Cap -->
+                    <div class="col-6 col-md-2">
+                        <label for="cap" class="form-label">CAP</label>
+                        <input type="text" class="form-control" id="cap">
+                    </div>
+
+                    <!-- Foto -->
+                    <div class="col-md-12">
+                        <label for="photo" class="form-label">Foto</label>
+                        <input type="file" class="form-control" id="photo">
+                    </div>
+
+                    <!-- Privacy -->
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="privacy">
+                            <label class="form-check-label" for="privacy">
+                                Seleziona per proseguire
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Submit -->
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Salva</button>
+                        <button type="reset" class="btn btn-warning">Svuota</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
     </div>
 
 </body>

@@ -76,20 +76,19 @@ Main
     background-color: var(--vdu-top-main);
 }
 
-.vdu-main-left {
-    background-color: #ED8500;
-    height: 100vh;
-}
+.vdu-main-left {}
 
-.vdu-main-right {
-    background-color: yellow;
-    height: 100vh;
-}
+.vdu-main-right {}
 
 .vdu-tag-category {
     background-color: var(--vdu-tag-category);
     font-weight: 500;
 }
+
+.vdu-class-avatar {
+    width: 30px;
+}
+
 
 /*
 ************

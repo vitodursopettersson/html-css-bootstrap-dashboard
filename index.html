@@ -11,7 +11,7 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Link Bootstrap -->
+    <!-- Link CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -59,7 +59,7 @@
                         <li class="d-none d-lg-block">
                             <i class="fa-solid fa-ellipsis-vertical"></i>
                         </li>
-                        <li class="vdu-warning">
+                        <li class="vdu-warning me-2 me-md-3">
                             <i class="fa-solid fa-bell"></i>
                         </li>
                     </ul>
@@ -119,7 +119,7 @@
         </div>
 
         <!-- Main -->
-        <main class="flex-grow-1">
+        <main class="flex-grow-1 overflow-y-scroll overflow-x-hidden">
 
             <!-- Top Main -->
             <div class="vdu-top-main container-fluid text-white px-2 py-2">
@@ -164,13 +164,467 @@
             </div>
 
             <!-- Content Main -->
-            <div class="container-fluid overflow-y-scroll">
+            <div class="container-fluid">
                 <div class="row">
+
+                    <!-- Colonna Sinistra -->
                     <div class="vdu-main-left col-12 col-lg-8">
-                        Left
+
+                        <!-- Prossime Classi -->
+                        <div class="card my-4">
+                            <h3 class="card-header">Prossime Classi</h3>
+                            <div class="card-body">
+
+                                <!-- Tabella -->
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Nome</th>
+                                            <th scope="col" class="text-center d-none d-md-table-cell">Data Inizio
+                                            </th>
+                                            <th scope="col" class="text-center d-none d-md-table-cell">ROI</th>
+                                            <th scope="col" class="text-center">Stato</th>
+                                            <th scope="col" class="text-center">Azioni</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <!-- Classe 75 -->
+                                        <tr>
+
+                                            <!-- Nome -->
+                                            <td class="align-middle col-5 col-md-6 col-lg-4">
+                                                <img class="vdu-class-avatar" src="img/class-avatar.png"
+                                                    alt="avatar icona">
+                                                <span class="align-middle ms-2">Classe 75</span>
+                                            </td>
+
+                                            <!-- Data Inizio -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>15 Feb 2021</span>
+                                            </td>
+
+                                            <!-- ROI -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+
+                                            <!-- Stato -->
+                                            <td class="text-center align-middle col-3 col-md-auto">
+                                                <span class="badge text-bg-success">Done</span>
+                                            </td>
+
+                                            <!-- Azioni -->
+                                            <td class="text-center col-auto col-md-auto">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+
+                                        </tr>
+
+                                        <!-- Classe 76 -->
+                                        <tr>
+
+                                            <!-- Nome -->
+                                            <td class="align-middle col-5 col-md-6 col-lg-4">
+                                                <img class="vdu-class-avatar" src="img/class-avatar.png"
+                                                    alt="avatar icona">
+                                                <span class="align-middle ms-2">Classe 76</span>
+                                            </td>
+
+                                            <!-- Data Inizio -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>16 Feb 2021</span>
+                                            </td>
+
+                                            <!-- ROI -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+
+                                            <!-- Stato -->
+                                            <td class="text-center align-middle col-3 col-md-auto">
+                                                <span class="badge text-bg-success">Done</span>
+                                            </td>
+
+                                            <!-- Azioni -->
+                                            <td class="text-center col-auto col-md-auto">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+
+                                        </tr>
+
+                                        <!-- Classe 77 -->
+                                        <tr>
+
+                                            <!-- Nome -->
+                                            <td class="align-middle col-5 col-md-6 col-lg-4">
+                                                <img class="vdu-class-avatar" src="img/class-avatar.png"
+                                                    alt="avatar icona">
+                                                <span class="align-middle ms-2">Classe 77</span>
+                                            </td>
+
+                                            <!-- Data Inizio -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>17 Feb 2021</span>
+                                            </td>
+
+                                            <!-- ROI -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+
+                                            <!-- Stato -->
+                                            <td class="text-center align-middle col-3 col-md-auto">
+                                                <span class="badge text-bg-warning text-white">process</span>
+                                            </td>
+
+                                            <!-- Azioni -->
+                                            <td class="text-center col-auto col-md-auto">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+
+                                        </tr>
+
+                                        <!-- Classe 78 -->
+                                        <tr>
+
+                                            <!-- Nome -->
+                                            <td class="align-middle col-5 col-md-6 col-lg-4">
+                                                <img class="vdu-class-avatar" src="img/class-avatar.png"
+                                                    alt="avatar icona">
+                                                <span class="align-middle ms-2">Classe 78</span>
+                                            </td>
+
+                                            <!-- Data Inizio -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>18 Feb 2021</span>
+                                            </td>
+
+                                            <!-- ROI -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+
+                                            <!-- Stato -->
+                                            <td class="text-center align-middle col-3 col-md-auto">
+                                                <span class="badge text-bg-success">Done</span>
+                                            </td>
+
+                                            <!-- Azioni -->
+                                            <td class="text-center col-auto col-md-auto">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+
+                                        </tr>
+
+                                        <!-- Classe 79 -->
+                                        <tr>
+
+                                            <!-- Nome -->
+                                            <td class="align-middle col-5 col-md-6 col-lg-4">
+                                                <img class="vdu-class-avatar" src="img/class-avatar.png"
+                                                    alt="avatar icona">
+                                                <span class="align-middle ms-2">Classe 79</span>
+                                            </td>
+
+                                            <!-- Data Inizio -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>19 Feb 2021</span>
+                                            </td>
+
+                                            <!-- ROI -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+
+                                            <!-- Stato -->
+                                            <td class="text-center align-middle col-3 col-md-auto">
+                                                <span class="badge text-bg-danger">failed</span>
+                                            </td>
+
+                                            <!-- Azioni -->
+                                            <td class="text-center col-auto col-md-auto">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+
+                                        </tr>
+
+                                        <!-- Classe 80 -->
+                                        <tr>
+
+                                            <!-- Nome -->
+                                            <td class="align-middle col-5 col-md-6 col-lg-4">
+                                                <img class="vdu-class-avatar" src="img/class-avatar.png"
+                                                    alt="avatar icona">
+                                                <span class="align-middle ms-2">Classe 80</span>
+                                            </td>
+
+                                            <!-- Data Inizio -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>20 Feb 2021</span>
+                                            </td>
+
+                                            <!-- ROI -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+
+                                            <!-- Stato -->
+                                            <td class="text-center align-middle col-3 col-md-auto">
+                                                <span class="badge text-bg-success">Done</span>
+                                            </td>
+
+                                            <!-- Azioni -->
+                                            <td class="text-center col-auto col-md-auto">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+
+                                        </tr>
+
+                                        <!-- Classe 81 -->
+                                        <tr>
+
+                                            <!-- Nome -->
+                                            <td class="align-middle col-5 col-md-6 col-lg-4">
+                                                <img class="vdu-class-avatar" src="img/class-avatar.png"
+                                                    alt="avatar icona">
+                                                <span class="align-middle ms-2">Classe 81</span>
+                                            </td>
+
+                                            <!-- Data Inizio -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>21 Feb 2021</span>
+                                            </td>
+
+                                            <!-- ROI -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+
+                                            <!-- Stato -->
+                                            <td class="text-center align-middle col-3 col-md-auto">
+                                                <span class="badge text-bg-danger">failed</span>
+                                            </td>
+
+                                            <!-- Azioni -->
+                                            <td class="text-center col-auto col-md-auto">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+
+                                        </tr>
+
+                                        <!-- Classe 82 -->
+                                        <tr>
+
+                                            <!-- Nome -->
+                                            <td class="align-middle col-5 col-md-6 col-lg-4">
+                                                <img class="vdu-class-avatar" src="img/class-avatar.png"
+                                                    alt="avatar icona">
+                                                <span class="align-middle ms-2">Classe 82</span>
+                                            </td>
+
+                                            <!-- Data Inizio -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>22 Feb 2021</span>
+                                            </td>
+
+                                            <!-- ROI -->
+                                            <td class="text-center align-middle d-none d-md-table-cell">
+                                                <span>20%</span>
+                                            </td>
+
+                                            <!-- Stato -->
+                                            <td class="text-center align-middle col-3 col-md-auto">
+                                                <span class="badge text-bg-success">Done</span>
+                                            </td>
+
+                                            <!-- Azioni -->
+                                            <td class="text-center col-auto col-md-auto">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- F.A.Q -->
+                        <div class="card my-4">
+                            <div class="card-header">
+                                <h3>F.A.Q</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                                Come aggiungere un nuovo studente?
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Di solito è inusuale usare dashboard del genere
+                                                da mobile, ma i nostri sviluppatori hanno fatto di tutto per permettere
+                                                un'esperienza utente accettabile anche da dispositivi a schermi ridotti.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                Come posso accedere alle informazioni del mio account?
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Di solito è inusuale usare dashboard del genere
+                                                da mobile, ma i nostri sviluppatori hanno fatto di tutto per permettere
+                                                un'esperienza utente accettabile anche da dispositivi a schermi ridotti.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                aria-expanded="false" aria-controls="flush-collapseThree">
+                                                Posso usare questa dashboard da mobile?
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Di solito è inusuale usare dashboard del genere
+                                                da mobile, ma i nostri sviluppatori hanno fatto di tutto per permettere
+                                                un'esperienza utente accettabile anche da dispositivi a schermi ridotti.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+
+                    <!-- Colonna Destra -->
                     <div class="vdu-main-right col-12 col-lg-4">
-                        Right
+
+                        <!-- Todo -->
+                        <div class="card my-4">
+                            <div class="card-header">
+                                <h3>Todo</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="card">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Kickoff nuove classi
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Lezione su Bootstrap 5 in classe #75
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Controllare username github studenti
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Grafico -->
+                        <div class="card my-4">
+                            <div class="card-body">
+                                <div class="card border-none">
+                                    <img class="p-1" src="img/stats.jpeg" alt="grafico">
+
+                                    <!-- Utenti Attivi -->
+                                    <div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Utenti attivi</h5>
+                                            <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo
+                                                mese</p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <!-- Unica Soluzione? -->
+                                            </li>
+                                            <li class="list-group-item">Gennaio: 1200</li>
+                                            <li class="list-group-item">Febbraio: 800</li>
+                                            <li class="list-group-item">Marzo: 1500</li>
+                                            <li class="list-group-item py-3">
+                                                <a href="#" class="card-link">Visualizza report approfondito</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
@@ -180,5 +634,10 @@
     </div>
 
 </body>
+
+<!-- JS Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
 </html>

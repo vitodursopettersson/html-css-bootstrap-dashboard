@@ -23,15 +23,50 @@
 <body>
 
     <!-- Header -->
-    <header>
+    <header class="d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="row align-items-center">
 
-        <!-- Navbar -->
-        <nav class="navbar">
-            <div>
-                Header
+                <!-- Brand -->
+                <div class="col-auto">
+                    <img class="d-none d-lg-inline-block" src="img/logo.svg" alt="logo boolean">
+                    <img class="vdu-brand-logo d-lg-none" src="img/mobile-logo.png" alt="logo mobile boolean">
+                </div>
+
+                <!-- Search -->
+                <div class="col">
+                    <div class="vdu-input-group input-group flex-nowrap">
+
+                        <span class="input-group-text" id="addon-wrapping">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+
+                        <input type="text" class="vdu-input form-control shadow-none"
+                            placeholder="Prova a cercare: lezioni di Laravel" aria-label="search">
+                    </div>
+
+                </div>
+
+                <!-- Icon -->
+                <div class="col-auto">
+                    <ul class="nav gap-4 text-dark-emphasis">
+                        <li class="d-none d-lg-block">
+                            <i class="fa-solid fa-list"></i>
+                        </li>
+                        <li class="d-none d-lg-block">
+                            <i class="fa-solid fa-circle-question"></i>
+                        </li>
+                        <li class="d-none d-lg-block">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </li>
+                        <li class="vdu-warning">
+                            <i class="fa-solid fa-bell"></i>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
-
-        </nav>
+        </div>
 
     </header>
 

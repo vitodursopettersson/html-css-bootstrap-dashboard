@@ -4,8 +4,16 @@ Variables
 ************ 
 */
 
+/* Size */
+
 :root {
     --header-h: 70px;
+}
+
+/* Color */
+
+:root {
+    --vdu-warning: #ED8500;
 }
 
 /*
@@ -16,7 +24,23 @@ Header
 
 header {
     height: var(--header-h);
-    background-color: red;
+}
+
+.vdu-brand-logo {
+    height: 52px;
+}
+
+.vdu-input-group>* {
+    background-color: #E5E5E5;
+    border: #E5E5E5;
+}
+
+.vdu-input:focus {
+    background-color: #E5E5E5;
+}
+
+.vdu-warning {
+    color: var(--vdu-warning);
 }
 
 /*

@@ -14,6 +14,7 @@ Variables
 
 :root {
     --vdu-warning: #ED8500;
+    --vdu-warning-hover: #cf7500;
     --vdu-search: #E5E5E5;
     --vdu-sidebar: #10273D;
     --vdu-top-main: #1B72E8;
@@ -45,6 +46,10 @@ header {
 
 .vdu-warning {
     color: var(--vdu-warning);
+}
+
+.vdu-warning:hover {
+    color: var(--vdu-warning-hover);
 }
 
 /*

@@ -16,6 +16,7 @@ Variables
     --vdu-warning: #ED8500;
     --vdu-search: #E5E5E5;
     --vdu-sidebar: #10273D;
+    --vdu-top-main: #1B72E8;
 }
 
 /*
@@ -47,17 +48,6 @@ header {
 
 /*
 ------------
-Main
------------- 
-*/
-
-.vdu-main-container {
-    height: calc(100vh - var(--header-h));
-    background-color: green;
-}
-
-/*
-------------
 Sidebar
 ------------
 */
@@ -69,6 +59,31 @@ Sidebar
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/*
+------------
+Main
+------------ 
+*/
+
+.vdu-main-container {
+    height: calc(100vh - var(--header-h));
+}
+
+.vdu-top-main {
+    background-color: var(--vdu-top-main);
+    height: 100px;
+}
+
+.vdu-main-left {
+    background-color: #ED8500;
+    height: 100vh;
+}
+
+.vdu-main-right {
+    background-color: yellow;
+    height: 100vh;
 }
 
 /*

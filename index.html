@@ -71,7 +71,7 @@
     </header>
 
     <!-- Main Container  -->
-    <div class=" vdu-main-container d-flex p-0">
+    <div class=" vdu-main-container d-flex p-0 overflow-hidden">
 
         <!-- Sidebar -->
         <div class="vdu-sidebar text-white d-flex flex-column px-2 py-4">
@@ -120,7 +120,24 @@
 
         <!-- Main -->
         <main class="flex-grow-1">
-            Main
+
+            <!-- Top Main -->
+            <div class="vdu-top-main container-fluid">
+                Top Main
+            </div>
+
+            <!-- Content Main -->
+            <div class="container-fluid overflow-y-scroll">
+                <div class="row">
+                    <div class="vdu-main-left col-12 col-lg-8">
+                        Left
+                    </div>
+                    <div class="vdu-main-right col-12 col-lg-4">
+                        Right
+                    </div>
+                </div>
+            </div>
+
         </main>
 
     </div>
